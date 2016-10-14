@@ -8,6 +8,8 @@
 | 会議種別 | 定期会議 |
 | 場所 | 未来大：R781、会津大：NRL-A、室工大：R205 |
 
+### 今日の成果物
+ - リーンキャンバス ： https://github.com/enpit2016fun/pbl_b/blob/others/PBL_b_leancanvas_ver0.5.pdf
 ---
 ## agenda
 1. [ターゲットの絞り込み](#anchar1)
@@ -55,7 +57,7 @@
 
 ---
 
-## <div id="anchar3"/>リーンキャンパス作成
+## <div id="anchar3"/>リーンキャンバス作成
 ### 1. なぜお客様は喜んでくれる？<br>
 ・課題<br>
  - 父親は、奥さんや娘さんの機嫌を取るのに日々苦労している。<br>
