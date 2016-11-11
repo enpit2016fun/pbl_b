@@ -1,0 +1,15 @@
+@media screen and (max-width: 768px){
+img{
+max-width: 100%;
+height: auto;
+width /***/:auto;　
+}
+#container{
+width:100%;
+}
+body{
+background-color: white;
+background-image: url(item1.png);
+background-repeat: repeat-y;
+}
+}
