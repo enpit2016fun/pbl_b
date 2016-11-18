@@ -10,8 +10,8 @@ class QuestionController extends AppController {
    }
 
    public function add() {
+      error_log($this->request->data, 3, "/var/tmp/my-errors.log");
      if ($this->request->isPost()) {
-       error_log($this->request->data, 3, "/var/tmp/my-errors.log");
        $this->Question->create();
        $this->Question->save($this->request->data);
      }
