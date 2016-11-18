@@ -8,13 +8,14 @@
 <h1>質問追加画面</h1>
 
 <?php
-  foreach ($data as $question) {
+  print_r($data);
+  /*foreach ($data as $question) {
     echo "<tr>";
     echo "<td>{$question->id}</td>";
     echo "<td>{$question->context}</td>";
     echo "<td>{$question->point}</td>";
     echo "</tr>";
-  }
+  }*/
 ?>
 
 </body>
