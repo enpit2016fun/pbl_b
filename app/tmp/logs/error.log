@@ -1,0 +1,336 @@
+2016-11-18 00:07:32 Error: [MissingControllerException] Controller class MeasureResultController could not be found.
+Exception Attributes: array (
+  'class' => 'MeasureResultController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/MeasureResult
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 00:08:07 Error: Fatal Error (1): Class 'App\Controller\AppController' not found in [/var/www/html/cakephp/app/Controller/MeasResultController.php, line 6]
+2016-11-18 00:08:07 Error: [FatalErrorException] Class 'App\Controller\AppController' not found
+Request URL: /cakephp/MeasResult
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Class 'App\\Cont...', '/var/www/html/c...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'App\\Cont...', '/var/www/html/c...', 6, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'App\\Cont...', '/var/www/html/c...', 6, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-11-18 09:12:38 Error: Fatal Error (1): Class 'App\Controller\AppController' not found in [/var/www/html/cakephp/app/Controller/MeasResultController.php, line 6]
+2016-11-18 09:12:38 Error: [FatalErrorException] Class 'App\Controller\AppController' not found
+Request URL: /cakephp/MeasResult
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Class 'App\\Cont...', '/var/www/html/c...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'App\\Cont...', '/var/www/html/c...', 6, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'App\\Cont...', '/var/www/html/c...', 6, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-11-18 09:12:38 Error: Fatal Error (1): Class 'App\Controller\AppController' not found in [/var/www/html/cakephp/app/Controller/MeasResultController.php, line 6]
+2016-11-18 09:12:38 Error: [FatalErrorException] Class 'App\Controller\AppController' not found
+Request URL: /cakephp/MeasResult
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Class 'App\\Cont...', '/var/www/html/c...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'App\\Cont...', '/var/www/html/c...', 6, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'App\\Cont...', '/var/www/html/c...', 6, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-11-18 09:15:34 Error: Fatal Error (1): Class 'App\Controller\AppController' not found in [/var/www/html/cakephp/app/Controller/MeasResultController.php, line 6]
+2016-11-18 09:15:34 Error: [FatalErrorException] Class 'App\Controller\AppController' not found
+Request URL: /cakephp/MeasResult
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Class 'App\\Cont...', '/var/www/html/c...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'App\\Cont...', '/var/www/html/c...', 6, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'App\\Cont...', '/var/www/html/c...', 6, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-11-18 09:15:35 Error: Fatal Error (1): Class 'App\Controller\AppController' not found in [/var/www/html/cakephp/app/Controller/MeasResultController.php, line 6]
+2016-11-18 09:15:35 Error: [FatalErrorException] Class 'App\Controller\AppController' not found
+Request URL: /cakephp/MeasResult
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Class 'App\\Cont...', '/var/www/html/c...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'App\\Cont...', '/var/www/html/c...', 6, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'App\\Cont...', '/var/www/html/c...', 6, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-11-18 09:18:09 Error: [MissingControllerException] Controller class MeasResultController could not be found.
+Exception Attributes: array (
+  'class' => 'MeasResultController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/MeasResult
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 09:18:47 Error: Fatal Error (1): Class 'Controller\AppController' not found in [/var/www/html/cakephp/app/Controller/MeasResultController.php, line 6]
+2016-11-18 09:18:47 Error: [FatalErrorException] Class 'Controller\AppController' not found
+Request URL: /cakephp/MeasResult
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Class 'Controll...', '/var/www/html/c...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Controll...', '/var/www/html/c...', 6, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'Controll...', '/var/www/html/c...', 6, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-11-18 09:18:48 Error: Fatal Error (1): Class 'Controller\AppController' not found in [/var/www/html/cakephp/app/Controller/MeasResultController.php, line 6]
+2016-11-18 09:18:48 Error: [FatalErrorException] Class 'Controller\AppController' not found
+Request URL: /cakephp/MeasResult
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Class 'Controll...', '/var/www/html/c...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Controll...', '/var/www/html/c...', 6, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'Controll...', '/var/www/html/c...', 6, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-11-18 09:18:56 Error: Fatal Error (1): Class 'App\Controller\AppController' not found in [/var/www/html/cakephp/app/Controller/MeasResultController.php, line 6]
+2016-11-18 09:18:56 Error: [FatalErrorException] Class 'App\Controller\AppController' not found
+Request URL: /cakephp/MeasResult
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Class 'App\\Cont...', '/var/www/html/c...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'App\\Cont...', '/var/www/html/c...', 6, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'App\\Cont...', '/var/www/html/c...', 6, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-11-18 09:19:50 Error: [MissingViewException] View file "MeasResult/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'MeasResult/index.ctp',
+)
+Request URL: /cakephp/MeasResult
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MeasResultController), Object(CakeRequest))
+#4 /var/www/html/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-11-18 09:21:38 Error: [MissingViewException] View file "MeasResult/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'MeasResult/index.ctp',
+)
+Request URL: /cakephp/MeasResult
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MeasResultController), Object(CakeRequest))
+#4 /var/www/html/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-11-18 09:21:39 Error: [MissingViewException] View file "MeasResult/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'MeasResult/index.ctp',
+)
+Request URL: /cakephp/MeasResult
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MeasResultController), Object(CakeRequest))
+#4 /var/www/html/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-11-18 09:21:39 Error: [MissingViewException] View file "MeasResult/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'MeasResult/index.ctp',
+)
+Request URL: /cakephp/MeasResult
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MeasResultController), Object(CakeRequest))
+#4 /var/www/html/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-11-18 09:21:39 Error: [MissingViewException] View file "MeasResult/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'MeasResult/index.ctp',
+)
+Request URL: /cakephp/MeasResult
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MeasResultController), Object(CakeRequest))
+#4 /var/www/html/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-11-18 09:21:40 Error: [MissingViewException] View file "MeasResult/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'MeasResult/index.ctp',
+)
+Request URL: /cakephp/MeasResult
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MeasResultController), Object(CakeRequest))
+#4 /var/www/html/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-11-18 09:32:20 Error: [MissingViewException] View file "Question/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Question/index.ctp',
+)
+Request URL: /cakephp/Question
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(QuestionController), Object(CakeRequest))
+#4 /var/www/html/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-11-18 09:35:37 Error: [MissingViewException] View file "Question/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Question/index.ctp',
+)
+Request URL: /cakephp/Question
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(QuestionController), Object(CakeRequest))
+#4 /var/www/html/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-11-18 09:35:41 Error: [MissingControllerException] Controller class MeasureResultController could not be found.
+Exception Attributes: array (
+  'class' => 'MeasureResultController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/MeasureResult
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 09:35:44 Error: [MissingControllerException] Controller class MeasureResultController could not be found.
+Exception Attributes: array (
+  'class' => 'MeasureResultController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/MeasureResult/question
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 09:35:48 Error: [MissingControllerException] Controller class MeasureResultController could not be found.
+Exception Attributes: array (
+  'class' => 'MeasureResultController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/MeasureResult/question.ctp
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 09:35:50 Error: [MissingControllerException] Controller class MeasureResultController could not be found.
+Exception Attributes: array (
+  'class' => 'MeasureResultController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/MeasureResult/question.ctp
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 09:35:52 Error: [MissingControllerException] Controller class MeasureResultController could not be found.
+Exception Attributes: array (
+  'class' => 'MeasureResultController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/MeasureResult/
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 09:35:54 Error: [MissingControllerException] Controller class MeasureResultController could not be found.
+Exception Attributes: array (
+  'class' => 'MeasureResultController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/MeasureResult/
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 09:36:02 Error: [MissingControllerException] Controller class MeasureResultController could not be found.
+Exception Attributes: array (
+  'class' => 'MeasureResultController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/MeasureResult/
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 09:38:35 Error: [MissingControllerException] Controller class MeasResultController could not be found.
+Exception Attributes: array (
+  'class' => 'MeasResultController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/MeasResult/question
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 09:42:34 Error: [MissingActionException] Action MeasMoodController::result() could not be found.
+Exception Attributes: array (
+  'controller' => 'MeasMoodController',
+  'action' => 'result',
+)
+Request URL: /cakephp/MeasMood/result
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MeasMoodController), Object(CakeRequest))
+#2 /var/www/html/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-11-18 09:47:57 Error: [MissingControllerException] Controller class MeasResultController could not be found.
+Exception Attributes: array (
+  'class' => 'MeasResultController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/MeasResult
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 09:52:04 Error: Fatal Error (4): syntax error, unexpected 'onClickMethod' (T_STRING), expecting ')' in [/var/www/html/cakephp/app/View/MeasMood/index.ctp, line 9]
+2016-11-18 09:52:04 Error: [FatalErrorException] syntax error, unexpected 'onClickMethod' (T_STRING), expecting ')'
+Request URL: /cakephp/MeasMood/
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/c...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/c...', 9, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/c...', 9, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-11-18 09:53:13 Error: Fatal Error (1): Call to a member function button() on null in [/var/www/html/cakephp/app/View/MeasMood/index.ctp, line 9]
+2016-11-18 09:53:13 Error: [FatalErrorException] Call to a member function button() on null
+Request URL: /cakephp/MeasMood/
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/c...', 9)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/c...', 9, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/c...', 9, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-11-18 10:07:26 Error: Fatal Error (4): syntax error, unexpected 'false' (T_STRING), expecting ',' or ';' in [/var/www/html/cakephp/app/View/MeasMood/index.ctp, line 10]
+2016-11-18 10:07:26 Error: [FatalErrorException] syntax error, unexpected 'false' (T_STRING), expecting ',' or ';'
+Request URL: /cakephp/MeasMood/
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/c...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/c...', 10, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/c...', 10, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-11-18 10:16:15 Error: Fatal Error (4): syntax error, unexpected '<' in [/var/www/html/cakephp/app/View/MeasMood/question.ctp, line 10]
+2016-11-18 10:16:15 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /cakephp/meas_mood/question
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/c...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/c...', 10, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/c...', 10, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-11-18 10:16:17 Error: Fatal Error (4): syntax error, unexpected '<' in [/var/www/html/cakephp/app/View/MeasMood/question.ctp, line 10]
+2016-11-18 10:16:17 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /cakephp/meas_mood/question
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/c...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/c...', 10, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/c...', 10, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
