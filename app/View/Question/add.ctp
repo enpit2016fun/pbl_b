@@ -6,7 +6,7 @@
 </head>
 <body>
 <h1>質問追加画面</h1>
-
+<table>
 <?php
   foreach ($data as $item) {
     $question = $item["Question"];
@@ -17,6 +17,6 @@
     echo "</tr>";
   }
 ?>
-
+</table>
 </body>
 </html>
