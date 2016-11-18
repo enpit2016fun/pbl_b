@@ -7,7 +7,7 @@
 <body>
 <h1>質問追加画面</h1>
 
-<?php echo $this->Form->create(false, array('type' => 'post', 'url' => 'index')); ?>
+<?php echo $this->Form->create(false, array('type' => 'post', 'action' => 'add')); ?>
 
 <h5>新しい質問</h5>
 <?php echo $this->Form->text("Question.context"); ?>
