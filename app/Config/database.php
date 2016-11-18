@@ -74,7 +74,7 @@ class DATABASE_CONFIG {
 		'password' => 'enpit2016',
 		'database' => 'MeasMood',
 		'prefix' => '',
-		//'encoding' => 'utf8',
+		'encoding' => 'utf8',
 	);
 
 	public $test = array(
