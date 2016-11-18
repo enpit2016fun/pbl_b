@@ -8,9 +8,7 @@
 <h3>PAPA DOUMEI</h3>
 <h1>質問に答えるだけで，あなたの機嫌を測定します！</h1>
 <?php echo $this->Form->create(false, array('type' => 'post', 'url' => 'measure')); ?>
-<?php echo $this->Form->submit('機嫌を測定', array('name' => 'question')); ?>
-<br>
-<?php echo $this->Form->submit('質問を追加', array('name' => 'add')); ?>
+<?php echo $this->Form->submit('機嫌を測定'); ?>
 <?php echo $this->Form->end(); ?>
 </body>
 </html>
