@@ -1,6 +1,6 @@
 <?php
 
-class enPiT2016 extends AppModel {
+class Papadomei extends AppModel {
 }
 
 ?>
