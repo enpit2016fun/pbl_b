@@ -5,7 +5,7 @@
 
 class AddQuestionController extends AppController {
    public function index() {
-     $data = $this->AddQuestionTable->find()->all();
+     $data = $this->AddQuestion->find()->all();
      $this->set('data', $data);
    }
 }

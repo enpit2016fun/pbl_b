@@ -1,6 +1,6 @@
 <?php
 
-class AddQuestionTable extends AppModel {
+class AddQuestion extends AppModel {
 }
 
 ?>
