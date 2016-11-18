@@ -1,17 +1,17 @@
-<?php
-/**
- * CakePHP(tm) : Rapid Development Framework (http://cakephp.org)
- * Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
- *
- * Licensed under The MIT License
- * For full copyright and license information, please see the LICENSE.txt
- * Redistributions of files must retain the above copyright notice.
- *
- * @copyright     Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
- * @link          http://cakephp.org CakePHP(tm) Project
- * @package       app
- * @since         CakePHP(tm) v 0.10.0.1076
- * @license       http://www.opensource.org/licenses/mit-license.php MIT License
- */
+<!DOCTYPE html>
+<html long = "ja">
+<head>
+<meta http-equiv=“Content-Type” content=“text/html; charset=UTF-8”/>
+<title>トップ画面</title>
+</head>
+<body>
+<h3>PAPA DOUMEI</h3>
+<h1>質問に答えるだけで，あなたの機嫌を測定します！</h1>
+<?php echo $this->Form->create(false, array('type' => 'post', 'url' => 'question')); ?>
+<?php echo $this->Form->submit('機嫌を測定', array('name' => 'question')); ?>
+<br>
+<?php echo $this->Form->submit('質問を追加', array('name' => 'add')); ?>
+<?php echo $this->Form->end(); ?>
+</body>
+</html>
 
-require 'webroot' . DIRECTORY_SEPARATOR . 'index.php';
