@@ -13,6 +13,10 @@ class QuestionController extends AppController {
        $this->redirect('http://175.184.29.233/cakephp/');
      }
    }
+
+   public function result() {
+     
+   }
 }
 
 ?>
