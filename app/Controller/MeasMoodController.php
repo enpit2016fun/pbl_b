@@ -20,7 +20,7 @@ class MeasMoodController extends AppController {
    }
 
    public function add() {
-     $data = $this->question_tables->find()->all();
+     $data = $this->QuestionTable->find()->all();
      $this->set('data', $data);
    }
 }
