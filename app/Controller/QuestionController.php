@@ -1,6 +1,9 @@
 <?php
 
 class QuestionController extends AppController {
+  public function index() {
+  }
+
   public function measure() {
      $data = $this->Question->find('all');
      $this->set('data', $data);
