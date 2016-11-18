@@ -10,7 +10,7 @@ class QuestionController extends AppController {
   }
 
    public function add() {
-     if ($this->request->isPost()) {
+     if ($this->request->isPost() && $this->request->data != NULL) {
        $this->Question->create();
        $this->Question->save($this->request->data);
        $this->redirect('http://175.184.29.233/cakephp/');
