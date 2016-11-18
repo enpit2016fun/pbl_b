@@ -1,7 +1,7 @@
 <?php
 
 class MeasMood extends AppModel {
-  $useTable = 'QuestionTable';
+  $useTable = 'meas_moods';
 }
 
 ?>
