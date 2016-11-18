@@ -5,7 +5,7 @@
 
 class QuestionController extends AppController {
    public function index() {
-     $data = $this->Question->find("all");
+     $data = $this->Question->find('all');
      $this->set('data', $data);
    }
 
@@ -14,6 +14,7 @@ class QuestionController extends AppController {
        $this->Question->create();
        $this->Question->save($this->request->data);
      }
+     $this->redirect('http://175.184.29.233/miyai/cakephp/');
    }
 }
 
