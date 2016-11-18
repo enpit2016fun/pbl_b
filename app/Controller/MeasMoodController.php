@@ -20,6 +20,7 @@ class MeasMoodController extends AppController {
    }
 
    public function add() {
+     $this->loadModel('MeasMood');
      $data = $this->MeasMood->find()->all();
      $this->set('data', $data);
    }
