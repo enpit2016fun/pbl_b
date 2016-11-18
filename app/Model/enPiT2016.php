@@ -1,6 +1,6 @@
 <?php
 
-class Papadomei extends AppModel {
+class MeasMood extends AppModel {
 }
 
 ?>
