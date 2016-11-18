@@ -8,7 +8,7 @@ class QuestionController extends AppController {
    }
 
    public function add() {
-     $data = $this->Question->find()->all();
+     $data = $this->Question->find("all");
      $this->set('data', $data);
    }
 }
