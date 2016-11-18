@@ -18,5 +18,10 @@
   }
 ?>
 </table>
+
+<?php echo $this->Form->create(false, array('type' => 'post', 'url' => 'result')); ?>
+<?php echo $this->Form->submit('機嫌を測定する'); ?>
+<?php echo $this->Form->end(); ?>
+
 </body>
 </html>

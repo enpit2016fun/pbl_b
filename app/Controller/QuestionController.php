@@ -13,8 +13,8 @@ class QuestionController extends AppController {
      if ($this->request->isPost()) {
        $this->Question->create();
        $this->Question->save($this->request->data);
+       $this->redirect('http://175.184.29.233/miyai/cakephp/');
      }
-     $this->redirect('http://175.184.29.233/miyai/cakephp/');
    }
 }
 
