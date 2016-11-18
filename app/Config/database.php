@@ -72,7 +72,7 @@ class DATABASE_CONFIG {
 		'host' => 'localhost',
 		'login' => 'root',
 		'password' => 'enpit2016',
-		'database' => 'MeasMoodls',
+		'database' => 'MeasMood',
 		'prefix' => '',
 		//'encoding' => 'utf8',
 	);
