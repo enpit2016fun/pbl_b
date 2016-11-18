@@ -5,11 +5,15 @@
 
 class QuestionController extends AppController {
    public function index() {
+     $data = $this->Question->find("all");
+     $this->set('data', $data);
    }
 
    public function add() {
-     $data = $this->Question->find("all");
-     $this->set('data', $data);
+     if ($this->request->isPost()) {
+       $this->Question->create();
+       $this->Question->save($this->request->data);
+     }
    }
 }
 
