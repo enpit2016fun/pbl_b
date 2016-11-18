@@ -2,26 +2,15 @@
 <html long = "ja">
 <head>
 <meta http-equiv=“Content-Type” content=“text/html; charset=UTF-8”/>
-<title>質問回答画面</title>
+<title>トップ画面</title>
 </head>
 <body>
-<h1>質問回答画面</h1>
-<table>
-<?php
-  foreach ($data as $item) {
-    $question = $item["Question"];
-    echo "<tr>";
-    echo "<td>". $question["id"] ."</td>";
-    echo "<td>". $question["context"] ."</td>";
-    echo "<td>". $question["point"] ."</td>";
-    echo "</tr>";
-  }
-?>
-</table>
-
-<?php echo $this->Form->create(false, array('type' => 'post', 'url' => 'result')); ?>
-<?php echo $this->Form->submit('機嫌を測定する'); ?>
+<h3>PAPA DOUMEI</h3>
+<h1>質問に答えるだけで，あなたの機嫌を測定します！</h1>
+<?php echo $this->Form->create(false, array('type' => 'post', 'url' => 'measure')); ?>
+<?php echo $this->Form->submit('機嫌を測定', array('name' => 'question')); ?>
+<br>
+<?php echo $this->Form->submit('質問を追加', array('name' => 'add')); ?>
 <?php echo $this->Form->end(); ?>
-
 </body>
 </html>
