@@ -10,11 +10,12 @@
 <?php
   foreach ($data as $item) {
     $question = $item["Question"];
-    echo "<tr>";
-    echo "<td>{$question->id}</td>";
-    echo "<td>{$question->context}</td>";
-    echo "<td>{$question->point}</td>";
-    echo "</tr>";
+    print_r($question);
+    #echo "<tr>";
+    #echo "<td>{$question->id}</td>";
+    #echo "<td>{$question->context}</td>";
+    #echo "<td>{$question->point}</td>";
+    #echo "</tr>";
   }
 ?>
 
