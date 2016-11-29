@@ -57,7 +57,8 @@ class QuestionController extends AppController {
          $selected_pt_sum += $point;
        }
        global $ques_pt_sum;
-       print_r($ques_pt_sum);
+       $q_pt_sum = $ques_pt_sum;
+       print_r($q_pt_sum);
      }
    }
 }
