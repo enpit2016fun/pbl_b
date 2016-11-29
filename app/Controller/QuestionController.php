@@ -5,7 +5,9 @@ class QuestionController extends AppController {
   }
 
   public function measure() {
-     $data = $this->Category->find('all');
+     App:import(‘Model’,’Category’);
+     $Category = new Category();
+     $data = $this->$Category->find('all');
      $this->set('data', $data);
   }
 
