@@ -16,6 +16,7 @@
     echo "<tr>";
     echo "<td>". $id . "</td>";
     echo "<td>". $context ."</td>";
+    echo "<td>". $question["point"] ."</td>";
     echo "<td><input type='checkbox' name='answer[]' value='" . $id . "'></td>";
     echo "</tr>";
   }
