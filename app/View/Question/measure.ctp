@@ -8,7 +8,6 @@
 <body>
 <h1>質問回答画面</h1>
 
-<?php echo $this->Form->create(false, array('type' => 'post', 'url' => 'result')); ?>
 <table>
 <?php
   foreach ($data as $item) {
@@ -23,6 +22,7 @@
   }
 ?>
 </table>
+<?php echo $this->Form->create(false, array('type' => 'post', 'url' => 'result')); ?>
 <?php echo $this->Form->submit('機嫌を測定する'); ?>
 <?php echo $this->Form->end(); ?>
 
