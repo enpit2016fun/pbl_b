@@ -11,9 +11,11 @@
 <?php
   foreach ($data as $item) {
     $question = $item["Question"];
+    $id = $question["id"];
+    $context = $question["context"];
     echo "<tr>";
-    echo "<td>". $question["context"] ."</td>";
-    echo '<td><label class="switch"><input type="checkbox"><div class="slider round"></div></label></td>';
+    echo "<td>". $context ."</td>";
+    echo '<td><label class="switch"><input type="checkbox" value="' . $id . '"><div class="slider round"></div></label></td>';
     echo "</tr>";
   }
 ?>
