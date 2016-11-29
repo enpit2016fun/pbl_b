@@ -22,10 +22,10 @@ class QuestionController extends AppController {
 
       $result[] = $data[0];
     }
-    print_r($result);
+    //print_r($result);
 
-     $data = $this->Question->find('all');
-     $this->set('data', $data);
+     //$data = $this->Question->find('all');
+     $this->set('data', $result);
   }
 
    public function add() {
