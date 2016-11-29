@@ -18,7 +18,7 @@
     echo "<tr>";
     echo "<td>". $id . "</td>";
     echo "<td>". $context ."</td>";
-    echo '<td><label class="switch"><input type="checkbox" value="' . $id . '"><div class="slider round"></div></label></td>';
+    echo "<td><label class='switch'><input type='checkbox'><div class='slider round'></div></label></td>";
     echo "</tr>";
   }
 ?>
