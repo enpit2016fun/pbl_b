@@ -17,7 +17,7 @@
     echo "<tr>";
     echo "<td>". $id . "</td>";
     echo "<td>". $context ."</td>";
-    echo "<td><label class='switch'><input name='answer[]' type='checkbox'><div class='slider round'></div></label></td>";
+    echo "<td><form method='post' url='result'><label class='switch'><input name='answer[]' type='checkbox'><div class='slider round'></div></label></form></td>";
     echo "</tr>";
   }
 ?>
