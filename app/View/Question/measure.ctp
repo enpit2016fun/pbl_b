@@ -16,6 +16,7 @@
     $id = $question["id"];
     $context = $question["context"];
     echo "<tr>";
+    echo "<td>". $id . "</td>";
     echo "<td>". $context ."</td>";
     echo '<td><label class="switch"><input type="checkbox" name="answer[]" value="' . $id . '"><div class="slider round"></div></label></td>';
     echo "</tr>";
