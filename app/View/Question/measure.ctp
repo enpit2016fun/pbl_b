@@ -13,11 +13,13 @@
     $question = $item["Question"];
     echo "<tr>";
     echo "<td>". $question["context"] ."</td>";
-    ?>
-    <div class="switch"><input id="cmn-toggle-1" class="cmn-toggle cmn-toggle-round" type="checkbox"><label for="cmn-toggle-1"></label></div>
-    <div class="switch"><input id="cmn-toggle-4" class="cmn-toggle cmn-toggle-round-flat" type="checkbox"><label for="cmn-toggle-4"></label></div>
-    <div class="switch"><input id="cmn-toggle-7" class="cmn-toggle cmn-toggle-yes-no" type="checkbox"><label for="cmn-toggle-7" data-on="Yes" data-off="No"></label></div>
-    <?php
+    echo '<div class="onoffswitch">
+          <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+          <label class="onoffswitch-label" for="myonoffswitch">
+          <span class="onoffswitch-inner"></span>
+          <span class="onoffswitch-switch"></span>
+          </label>
+          </div>';
     echo "</tr>";
   }
 ?>
