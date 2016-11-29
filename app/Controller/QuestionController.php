@@ -20,7 +20,7 @@ class QuestionController extends AppController {
         'limit' => 3            // 3件取得
       ));
 
-      $result[] = $data;
+      $result[] = $data[0];
     }
     print_r($result);
 
