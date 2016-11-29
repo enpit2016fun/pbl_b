@@ -2,6 +2,7 @@
 <html long = "ja">
 <head>
 <meta http-equiv=“Content-Type” content=“text/html; charset=UTF-8”/>
+<?php echo $this->Html->script('toggle'); ?>
 <title>質問回答画面</title>
 </head>
 <body>
