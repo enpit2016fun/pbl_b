@@ -10,11 +10,12 @@
 <table>
 <?php
   foreach ($data as $item) {
+    $id = $item["id"];
     $question = $item["Question"];
     echo "<tr>";
     echo "<td>". $question["context"] ."</td>";
     echo '<td><div class="onoffswitch">
-          <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+          <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch_'. $id .'" checked>
           <label class="onoffswitch-label" for="myonoffswitch">
           <span class="onoffswitch-inner"></span>
           <span class="onoffswitch-switch"></span>
