@@ -30,9 +30,8 @@ class QuestionController extends AppController {
       global $ques_pt_sum;
       $question = $item["Question"];
       $ques_pt_sum += $question["point"];
-      print_r($question["point"]);
     }
-
+     print_r($ques_pt_sum);
      $this->set('data', $result);
   }
 
