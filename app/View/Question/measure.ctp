@@ -13,7 +13,9 @@
     echo "<tr>";
     echo "<td>". $question["id"] ."</td>";
     echo "<td>". $question["context"] ."</td>";
-    echo "<td>". $question["point"] ."</td>";
+    echo '<div class="switch"><input id="cmn-toggle-1" class="cmn-toggle cmn-toggle-round" type="checkbox"><label for="cmn-toggle-1"></label></div>
+          <div class="switch"><input id="cmn-toggle-4" class="cmn-toggle cmn-toggle-round-flat" type="checkbox"><label for="cmn-toggle-4"></label></div>
+          <div class="switch"><input id="cmn-toggle-7" class="cmn-toggle cmn-toggle-yes-no" type="checkbox"><label for="cmn-toggle-7" data-on="Yes" data-off="No"></label></div>';
     echo "</tr>";
   }
 ?>
