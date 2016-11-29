@@ -2,7 +2,7 @@
 <html long = "ja">
 <head>
 <meta http-equiv=“Content-Type” content=“text/html; charset=UTF-8”/>
-<?php echo $this->Html->script('toggle'); ?>
+<?php echo $this->Html->css('toggle'); ?>
 <title>質問回答画面</title>
 </head>
 <body>
@@ -12,7 +12,6 @@
   foreach ($data as $item) {
     $question = $item["Question"];
     echo "<tr>";
-    echo "<td>". $question["id"] ."</td>";
     echo "<td>". $question["context"] ."</td>";
     echo '<div class="switch"><input id="cmn-toggle-1" class="cmn-toggle cmn-toggle-round" type="checkbox"><label for="cmn-toggle-1"></label></div>
           <div class="switch"><input id="cmn-toggle-4" class="cmn-toggle cmn-toggle-round-flat" type="checkbox"><label for="cmn-toggle-4"></label></div>
