@@ -2,7 +2,11 @@
 <html long = "ja">
 <head>
 <meta http-equiv=“Content-Type” content=“text/html; charset=UTF-8”/>
-<?php echo $this->Html->css('toggle'); ?>
+<?php echo $this->Html->css('bootstrap'); ?>
+<?php echo $this->Html->css('bootstrap-switch'); ?>
+<?php echo $this->Html->script('jquery'); ?>
+<?php echo $this->Html->script('bootstrap-switch'); ?>
+<?php echo $this->Html->script('measure'); ?>
 <title>質問回答画面</title>
 </head>
 <body>
@@ -17,7 +21,7 @@
     echo "<tr>";
     echo "<td>". $id . "</td>";
     echo "<td>". $context ."</td>";
-    echo "<td><label class='switch'><input name='answer[]' type='checkbox'><div class='slider round'></div></label></td>";
+    echo "<td><input type='checkbox' name='answer[]' checked></td>";
     echo "</tr>";
   }
 ?>
