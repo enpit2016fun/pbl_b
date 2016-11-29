@@ -37,7 +37,10 @@ class QuestionController extends AppController {
    }
 
    public function result() {
-
+     $answer = "";
+     if ($this->request->isPost()) {
+       print_r($this->request->data['answer']);
+     }
    }
 }
 
