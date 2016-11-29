@@ -334,3 +334,181 @@ Stack Trace:
 #3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2016-11-29 15:22:51 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] 対象のコンピューターによって拒否されたため、接続できませんでした。
+',
+  'enabled' => true,
+)
+Request URL: /pbl_b/question/measure
+Stack Trace:
+#0 C:\xampp\htdocs\pbl_b\lib\Cake\Model\Datasource\DboSource.php(269): Mysql->connect()
+#1 C:\xampp\htdocs\pbl_b\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\pbl_b\lib\Cake\Model\Model.php(3640): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\pbl_b\lib\Cake\Model\Model.php(1162): Model->setDataSource('default')
+#4 C:\xampp\htdocs\pbl_b\lib\Cake\Model\Model.php(3667): Model->setSource('questions')
+#5 C:\xampp\htdocs\pbl_b\lib\Cake\Model\Model.php(3038): Model->getDataSource()
+#6 C:\xampp\htdocs\pbl_b\lib\Cake\Model\Model.php(3010): Model->_readDataSource('all', Array)
+#7 C:\xampp\htdocs\pbl_b\app\Controller\QuestionController.php(8): Model->find('all')
+#8 [internal function]: QuestionController->measure()
+#9 C:\xampp\htdocs\pbl_b\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(QuestionController), Array)
+#10 C:\xampp\htdocs\pbl_b\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\pbl_b\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(QuestionController), Object(CakeRequest))
+#12 C:\xampp\htdocs\pbl_b\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2016-11-29 15:22:57 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] 対象のコンピューターによって拒否されたため、接続できませんでした。
+',
+  'enabled' => true,
+)
+Request URL: /pbl_b/question/measure
+Stack Trace:
+#0 C:\xampp\htdocs\pbl_b\lib\Cake\Model\Datasource\DboSource.php(269): Mysql->connect()
+#1 C:\xampp\htdocs\pbl_b\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\pbl_b\lib\Cake\Model\Model.php(3640): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\pbl_b\lib\Cake\Model\Model.php(1162): Model->setDataSource('default')
+#4 C:\xampp\htdocs\pbl_b\lib\Cake\Model\Model.php(3667): Model->setSource('questions')
+#5 C:\xampp\htdocs\pbl_b\lib\Cake\Model\Model.php(3038): Model->getDataSource()
+#6 C:\xampp\htdocs\pbl_b\lib\Cake\Model\Model.php(3010): Model->_readDataSource('all', Array)
+#7 C:\xampp\htdocs\pbl_b\app\Controller\QuestionController.php(8): Model->find('all')
+#8 [internal function]: QuestionController->measure()
+#9 C:\xampp\htdocs\pbl_b\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(QuestionController), Array)
+#10 C:\xampp\htdocs\pbl_b\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\pbl_b\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(QuestionController), Object(CakeRequest))
+#12 C:\xampp\htdocs\pbl_b\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2016-11-29 15:23:12 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /pbl_b/question/measure
+Stack Trace:
+#0 C:\xampp\htdocs\pbl_b\lib\Cake\Model\Datasource\DboSource.php(269): Mysql->connect()
+#1 C:\xampp\htdocs\pbl_b\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\pbl_b\lib\Cake\Model\Model.php(3640): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\pbl_b\lib\Cake\Model\Model.php(1162): Model->setDataSource('default')
+#4 C:\xampp\htdocs\pbl_b\lib\Cake\Model\Model.php(3667): Model->setSource('questions')
+#5 C:\xampp\htdocs\pbl_b\lib\Cake\Model\Model.php(3038): Model->getDataSource()
+#6 C:\xampp\htdocs\pbl_b\lib\Cake\Model\Model.php(3010): Model->_readDataSource('all', Array)
+#7 C:\xampp\htdocs\pbl_b\app\Controller\QuestionController.php(8): Model->find('all')
+#8 [internal function]: QuestionController->measure()
+#9 C:\xampp\htdocs\pbl_b\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(QuestionController), Array)
+#10 C:\xampp\htdocs\pbl_b\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\pbl_b\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(QuestionController), Object(CakeRequest))
+#12 C:\xampp\htdocs\pbl_b\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2016-11-29 15:36:19 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1049] Unknown database \'measmood\'',
+  'enabled' => true,
+)
+Request URL: /pbl_b/question/measure
+Stack Trace:
+#0 C:\xampp\htdocs\pbl_b\lib\Cake\Model\Datasource\DboSource.php(269): Mysql->connect()
+#1 C:\xampp\htdocs\pbl_b\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\pbl_b\lib\Cake\Model\Model.php(3640): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\pbl_b\lib\Cake\Model\Model.php(1162): Model->setDataSource('default')
+#4 C:\xampp\htdocs\pbl_b\lib\Cake\Model\Model.php(3667): Model->setSource('questions')
+#5 C:\xampp\htdocs\pbl_b\lib\Cake\Model\Model.php(3038): Model->getDataSource()
+#6 C:\xampp\htdocs\pbl_b\lib\Cake\Model\Model.php(3010): Model->_readDataSource('all', Array)
+#7 C:\xampp\htdocs\pbl_b\app\Controller\QuestionController.php(8): Model->find('all')
+#8 [internal function]: QuestionController->measure()
+#9 C:\xampp\htdocs\pbl_b\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(QuestionController), Array)
+#10 C:\xampp\htdocs\pbl_b\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\pbl_b\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(QuestionController), Object(CakeRequest))
+#12 C:\xampp\htdocs\pbl_b\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2016-11-29 15:56:42 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1049] Unknown database \'measmood\'',
+  'enabled' => true,
+)
+Request URL: /pbl_b/question/measure
+Stack Trace:
+#0 C:\xampp\htdocs\pbl_b\lib\Cake\Model\Datasource\DboSource.php(269): Mysql->connect()
+#1 C:\xampp\htdocs\pbl_b\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\pbl_b\lib\Cake\Model\Model.php(3640): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\pbl_b\lib\Cake\Model\Model.php(1162): Model->setDataSource('default')
+#4 C:\xampp\htdocs\pbl_b\lib\Cake\Model\Model.php(3667): Model->setSource('questions')
+#5 C:\xampp\htdocs\pbl_b\lib\Cake\Model\Model.php(3038): Model->getDataSource()
+#6 C:\xampp\htdocs\pbl_b\lib\Cake\Model\Model.php(3010): Model->_readDataSource('all', Array)
+#7 C:\xampp\htdocs\pbl_b\app\Controller\QuestionController.php(8): Model->find('all')
+#8 [internal function]: QuestionController->measure()
+#9 C:\xampp\htdocs\pbl_b\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(QuestionController), Array)
+#10 C:\xampp\htdocs\pbl_b\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\pbl_b\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(QuestionController), Object(CakeRequest))
+#12 C:\xampp\htdocs\pbl_b\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2016-11-29 15:57:34 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1049] Unknown database \'measmood\'',
+  'enabled' => true,
+)
+Request URL: /pbl_b/question/measure
+Stack Trace:
+#0 C:\xampp\htdocs\pbl_b\lib\Cake\Model\Datasource\DboSource.php(269): Mysql->connect()
+#1 C:\xampp\htdocs\pbl_b\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\pbl_b\lib\Cake\Model\Model.php(3640): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\pbl_b\lib\Cake\Model\Model.php(1162): Model->setDataSource('default')
+#4 C:\xampp\htdocs\pbl_b\lib\Cake\Model\Model.php(3667): Model->setSource('questions')
+#5 C:\xampp\htdocs\pbl_b\lib\Cake\Model\Model.php(3038): Model->getDataSource()
+#6 C:\xampp\htdocs\pbl_b\lib\Cake\Model\Model.php(3010): Model->_readDataSource('all', Array)
+#7 C:\xampp\htdocs\pbl_b\app\Controller\QuestionController.php(8): Model->find('all')
+#8 [internal function]: QuestionController->measure()
+#9 C:\xampp\htdocs\pbl_b\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(QuestionController), Array)
+#10 C:\xampp\htdocs\pbl_b\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\pbl_b\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(QuestionController), Object(CakeRequest))
+#12 C:\xampp\htdocs\pbl_b\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2016-11-29 15:58:13 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1049] Unknown database \'measmood\'',
+  'enabled' => true,
+)
+Request URL: /pbl_b/question/measure
+Stack Trace:
+#0 C:\xampp\htdocs\pbl_b\lib\Cake\Model\Datasource\DboSource.php(269): Mysql->connect()
+#1 C:\xampp\htdocs\pbl_b\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\pbl_b\lib\Cake\Model\Model.php(3640): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\pbl_b\lib\Cake\Model\Model.php(1162): Model->setDataSource('default')
+#4 C:\xampp\htdocs\pbl_b\lib\Cake\Model\Model.php(3667): Model->setSource('questions')
+#5 C:\xampp\htdocs\pbl_b\lib\Cake\Model\Model.php(3038): Model->getDataSource()
+#6 C:\xampp\htdocs\pbl_b\lib\Cake\Model\Model.php(3010): Model->_readDataSource('all', Array)
+#7 C:\xampp\htdocs\pbl_b\app\Controller\QuestionController.php(8): Model->find('all')
+#8 [internal function]: QuestionController->measure()
+#9 C:\xampp\htdocs\pbl_b\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(QuestionController), Array)
+#10 C:\xampp\htdocs\pbl_b\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\pbl_b\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(QuestionController), Object(CakeRequest))
+#12 C:\xampp\htdocs\pbl_b\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2016-11-29 15:59:08 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1049] Unknown database \'measmood\'',
+  'enabled' => true,
+)
+Request URL: /pbl_b/question/measure
+Stack Trace:
+#0 C:\xampp\htdocs\pbl_b\lib\Cake\Model\Datasource\DboSource.php(269): Mysql->connect()
+#1 C:\xampp\htdocs\pbl_b\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\pbl_b\lib\Cake\Model\Model.php(3640): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\pbl_b\lib\Cake\Model\Model.php(1162): Model->setDataSource('default')
+#4 C:\xampp\htdocs\pbl_b\lib\Cake\Model\Model.php(3667): Model->setSource('questions')
+#5 C:\xampp\htdocs\pbl_b\lib\Cake\Model\Model.php(3038): Model->getDataSource()
+#6 C:\xampp\htdocs\pbl_b\lib\Cake\Model\Model.php(3010): Model->_readDataSource('all', Array)
+#7 C:\xampp\htdocs\pbl_b\app\Controller\QuestionController.php(8): Model->find('all')
+#8 [internal function]: QuestionController->measure()
+#9 C:\xampp\htdocs\pbl_b\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(QuestionController), Array)
+#10 C:\xampp\htdocs\pbl_b\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\pbl_b\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(QuestionController), Object(CakeRequest))
+#12 C:\xampp\htdocs\pbl_b\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
