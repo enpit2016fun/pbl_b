@@ -7,7 +7,7 @@
 </head>
 <body>
 <h1>質問回答画面</h1>
-
+<?php echo $this->Form->create(false, array('type' => 'post', 'url' => 'result')); ?>
 <table>
 <?php
   foreach ($data as $item) {
@@ -17,12 +17,11 @@
     echo "<tr>";
     echo "<td>". $id . "</td>";
     echo "<td>". $context ."</td>";
-    echo "<td><form method='post' url='result'><label class='switch'><input name='answer[]' type='checkbox'><div class='slider round'></div></label></form></td>";
+    echo "<td><label class='switch'><input name='answer[]' type='checkbox'><div class='slider round'></div></label></td>";
     echo "</tr>";
   }
 ?>
 </table>
-<?php echo $this->Form->create(false, array('type' => 'post', 'url' => 'result')); ?>
 <?php echo $this->Form->submit('機嫌を測定する'); ?>
 <?php echo $this->Form->end(); ?>
 
