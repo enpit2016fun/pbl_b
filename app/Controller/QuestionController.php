@@ -7,9 +7,15 @@ class QuestionController extends AppController {
   public function measure() {
      App::import('Model', 'Category');
      $this->Category = new Category();
-     $test = $this->Category->find('all');
-     print_r($test);
-     
+     $category_list= $this->Category->find('all');
+
+    foreach ($category_list as $category) {
+      $cate_id = $category['Category']['id'];
+      $cate = $category['Category']['category'];
+      print_r($cate_id);
+      print_r($cate);
+    }
+
      $data = $this->Question->find('all');
      $this->set('data', $data);
   }
