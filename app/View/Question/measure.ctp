@@ -13,13 +13,8 @@
     $question = $item["Question"];
     echo "<tr>";
     echo "<td>". $question["context"] ."</td>";
-    echo '<td><div class="onoffswitch">
-          <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch_'. $question["id"] .'" checked>
-          <label class="onoffswitch-label" for="myonoffswitch">
-          <span class="onoffswitch-inner"></span>
-          <span class="onoffswitch-switch"></span>
-          </label>
-          </div></td>';
+    echo '<td><label class="switch"><input type="checkbox"><div class="slider"></div></label>
+          <label class="switch"><input type="checkbox"><div class="slider round"></div></label></td>';
     echo "</tr>";
   }
 ?>
