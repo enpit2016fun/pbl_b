@@ -1,1 +1,1 @@
-$("[name='answer[]']").bootstrapSwitch();
+$("[name='answer']").bootstrapSwitch();
