@@ -2,7 +2,7 @@
 <html long = "ja">
 <head>
 <meta http-equiv=“Content-Type” content=“text/html; charset=UTF-8”/>
-<?php #echo $this->Html->css('bootstrap'); ?>
+<?php echo $this->Html->css('bootstrap.css'); ?>
 <?php #echo $this->Html->css('bootstrap-switch'); ?>
 <?php echo $this->Html->script('jquery.js'); ?>
 <?php echo $this->Html->script('bootstrap-switch.js'); ?>
