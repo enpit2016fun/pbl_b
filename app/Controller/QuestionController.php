@@ -47,6 +47,7 @@ class QuestionController extends AppController {
    public function result() {
      $answer = "";
      $selected_pt_sum = 0;
+     global $ques_pt_sum;
      if ($this->request->isPost()) {
        foreach ($this->request->data['answer'] as $answer_id) {
          $data = $this->Question->find('all', array(
@@ -56,7 +57,9 @@ class QuestionController extends AppController {
          $point = $data[0]["Question"]["point"];
          $selected_pt_sum += $point;
        }
-       print_r($GLOBALS['ques_pt_sum']);
+
+       $percentage = $selected_pt_sum * (100 / $ques_pt_sum);
+       $this->set('measure_result', $percentage);
      }
    }
 }
