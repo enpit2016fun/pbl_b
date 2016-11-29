@@ -10,7 +10,6 @@ class QuestionController extends AppController {
     $this->Category = new Category();
     $category_list= $this->Category->find('all');
 
-    $GLOBALS['ques_pt_sum'] = 0;
     $result = array();
     foreach ($category_list as $category) {
       $cate_id = $category['Category']['id'];
@@ -25,9 +24,12 @@ class QuestionController extends AppController {
       $result[] = $data[0];
     }
 
+    global $ques_pt_sum;
+    $ques_pt_sum = 0;
     foreach ($result as $item) {
+      global $ques_pt_sum;
       $question = $item["Question"];
-      $GLOBALS['ques_pt_sum'] += $question["point"];
+      $ques_pt_sum += $question["point"];
     }
 
      $this->set('data', $result);
@@ -48,13 +50,17 @@ class QuestionController extends AppController {
      $selected_pt_sum = 0;
      if ($this->request->isPost()) {
        foreach ($this->request->data['answer'] as $answer_id) {
-         $point = $this->Question->find('all', array(
+         $data = $this->Question->find('all', array(
            'conditions' => array('Question.id' => $answer_id),
            'fields' => array('Question.point')
          ));
-         print_r($GLOBALS['ques_pt_sum']);
-         print_r($point);
+         $point = $data[0]["Question"]["point"];
+         $selected_pt_sum += $point;
        }
+       echo $selected_pt_sum;
+       global $ques_pt_sum;
+       echo "/";
+       echo $ques_pt_sum;
      }
    }
 }
