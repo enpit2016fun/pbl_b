@@ -32,13 +32,16 @@ class QuestionController extends AppController {
      $context = $this->request->data("Question.context");
      $point = $this->request->data("Question.point");
      if ($this->request->isPost() && $context != "" && $point != "") {
-       $this->Question->create();
-       $this->Question->set(array(
-         'context' => $context,
-         'point' => $point
-       ));
-       print_r($this->Question->id);
-       $this->Question->save();
+       foreach ($this->request->data['category'] as $cate_id) {
+         $this->Question->create();
+         $this->Question->set(array(
+           'cate_id' => $cate_id,
+           'context' => $context,
+           'point' => $point
+         ));
+         print_r($this->Question->id);
+         $this->Question->save();
+       }
        $this->redirect('http://175.184.29.233/cakephp/');
      }
 
