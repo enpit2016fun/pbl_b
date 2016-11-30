@@ -1,5 +1,6 @@
-var area = $("[class='ques']:checked").map(function(){
-  return $(this).val();
-}).get();
+var answer = [];
+$("[name='answer[]']:checked").each(function(){
+    answer.push(this.value);
+});
 
-setInterval(console.log(area), 3000);
+console.log(answer);
