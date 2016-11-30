@@ -1,5 +1,5 @@
 $(function(){
-    $("#resultForm").submit(function(){
+    $("#measureForm").submit(function(){
         var answer = [];
         $("[name='answer[]']:checked").each(function(){
             answer.push(this.value);
