@@ -22,7 +22,7 @@
     echo "<td><input type='checkbox' name='answer[]' value='" . $id . "'></td>";
     echo "</tr>";
   }
-  echo "<input type='checkbox' style='display:none;' name='sum' value='" . $point_sum . "' checked>";
+  echo "<input type='checkbox' style='display:none;' name='answer[]' value='" . $point_sum . "' checked>";
 ?>
 </table>
 <?php echo $this->Form->submit('機嫌を測定する'); ?>
