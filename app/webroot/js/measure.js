@@ -2,4 +2,4 @@ var area = $('[class="ques"]:checked').map(function(){
   return $(this).val();
 }).get();
 
-setInterval(alert("TEST"), 3000);
+setInterval(console.log(area);, 3000);
