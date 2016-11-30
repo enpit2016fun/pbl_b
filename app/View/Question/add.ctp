@@ -25,6 +25,9 @@
 <h5>配点</h5>
 <?php echo $this->Form->text('Question.point'); ?>
 
+<h5>解決策</h5>
+<?php echo $this->Form->text('Question.solution'); ?>
+
 <?php echo $this->Form->submit('質問を追加する'); ?>
 <?php echo $this->Form->end(); ?>
 

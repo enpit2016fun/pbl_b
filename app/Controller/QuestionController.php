@@ -31,6 +31,10 @@ class QuestionController extends AppController {
    public function add() {
      $context = $this->request->data("Question.context");
      $point = $this->request->data("Question.point");
+     $solution = $this->request->data("Question.solution");
+
+     App::import('Model', 'Solution');
+     $this->Solution = new Solution();
      if ($this->request->isPost() && $context != "" && $point != "") {
        foreach ($this->request->data['category'] as $cate_id) {
          $this->Question->create();
@@ -39,9 +43,16 @@ class QuestionController extends AppController {
            'context' => $context,
            'point' => $point
          ));
-         print_r($this->Question->id);
          $this->Question->save();
+
+         $this->Solution->create();
+         $this->Solution->set(array(
+           'cate_id' => $cate_id,
+           'solution' => $solution,
+         ));
+         $this->Solution->save();
        }
+
        $this->redirect('http://175.184.29.233/cakephp/');
      }
 
