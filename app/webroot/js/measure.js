@@ -1,4 +1,4 @@
-var area = $('[class="ques"]:checked').map(function(){
+var area = $("[class='ques']:checked").map(function(){
   return $(this).val();
 }).get();
 
