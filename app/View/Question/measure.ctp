@@ -22,7 +22,7 @@
     echo "<td><input type='checkbox' name='answer[]' value='" . $id . "'></td>";
     echo "</tr>";
   }
-  echo "<input type='radio' id='sum' name='sum' value='". $point_sum. "' checked>";
+  echo "<input type='hidden' name='sum' value='". $point_sum. "'>";
 ?>
 </table>
 <?php echo $this->Form->submit('機嫌を測定する'); ?>
