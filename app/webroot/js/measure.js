@@ -7,7 +7,7 @@ $(function(){
 
         $.ajax({
             type: "POST",
-            url: "result",
+            url: "/miyai/cakephp/question/result",
             data: {
                 "answer":answer
             },
