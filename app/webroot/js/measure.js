@@ -12,12 +12,8 @@ $(function(){
                 "answer":answer
             },
             success: function(data){
-              alert(data);
+              location.replace('./result');
             },
-            error: function(xhr, textStatus, errorThrown) {
-              var res = $.parseJSON(xhr.responseText);
-              //alert(res);
-            }
         });
         return false
     });
