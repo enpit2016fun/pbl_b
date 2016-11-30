@@ -1,7 +1,8 @@
 <?php
+$Question = new QuestionController();
+
 class QuestionController extends AppController {
   private $ques_pt_sum = 0;
-  $Question = new QuestionController();
 
   public function getSum() {
       return $this->$ques_pt_sum;
