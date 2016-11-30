@@ -39,7 +39,7 @@ class QuestionController extends AppController {
 
      App::import('Model', 'Category');
      $this->Category = new Category();
-     $category_list= $this->Category->find('all');
+     $category_list = $this->Category->find('all');
      $this->set('category' $category_list);
    }
 
