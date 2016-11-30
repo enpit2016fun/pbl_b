@@ -7,11 +7,17 @@ $(function(){
 
         $.ajax({
             type: "POST",
-            url: "/miyai/cakephp/question/result",
+            url: "result",
             data: {
                 "answer":answer
             },
+            success: function(data){
+              alert(data);
+            },
+            error: function (data) {
+                alert(data);
+            }
         });
-        return false;
+        return false
     });
 });
