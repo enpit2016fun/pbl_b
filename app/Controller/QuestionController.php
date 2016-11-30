@@ -52,8 +52,7 @@ class QuestionController extends AppController {
        }
 
        $percentage = $selected_pt_sum * (100 / $this->request->data['sum']);
-       print_r($percentage);
-       $this->set('measure_result', $percentage);
+       $this->set('measure_result', (int)$percentage);
      }
    }
 }
