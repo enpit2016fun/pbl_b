@@ -1,6 +1,4 @@
 <?php
-$ques_pt_sum = 0;
-
 class QuestionController extends AppController {
   public function index() {
   }
@@ -23,12 +21,9 @@ class QuestionController extends AppController {
 
       $result[] = $data[0];
     }
-    global $ques_pt_sum;
-    $ques_pt_sum = 0;
+
     foreach ($result as $item) {
-      global $ques_pt_sum;
       $question = $item["Question"];
-      $ques_pt_sum += $question["point"];
     }
      $this->set('data', $result);
   }
@@ -46,7 +41,6 @@ class QuestionController extends AppController {
    public function result() {
      $answer = "";
      $selected_pt_sum = 0;
-     global $ques_pt_sum;
      if ($this->request->isPost()) {
        foreach ($this->request->data['answer'] as $answer_id) {
          $data = $this->Question->find('all', array(
@@ -56,10 +50,9 @@ class QuestionController extends AppController {
          $point = $data[0]["Question"]["point"];
          $selected_pt_sum += $point;
        }
-       global $ques_pt_sum;
-       $ques_pt_sum = $this->request->data['sum'];
-       print_r($this->request->data['answer']);
-       $percentage = $selected_pt_sum * (100 / $ques_pt_sum);
+
+       $percentage = $selected_pt_sum * (100 / $this->request->data['sum']);
+       print_r($percentage);
        $this->set('measure_result', $percentage);
      }
    }
