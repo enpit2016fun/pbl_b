@@ -22,10 +22,12 @@
     echo "<td><input type='checkbox' name='answer[]' value='" . $id . "'></td>";
     echo "</tr>";
   }
-  echo "<input type='radio' name='hyouka' value='good' checked='checked'>";
+  echo "<input type='radio' name='sum' value='". $point_sum. "' checked>";
 ?>
 </table>
 <?php echo $this->Form->submit('機嫌を測定する'); ?>
 <?php echo $this->Form->end(); ?>
+
+<?php echo $this->Html->script('measure'); ?>
 </body>
 </html>
