@@ -19,7 +19,7 @@
     echo "<td>". $context ."</td>";
     echo "<td>". $question["point"] ."</td>";
     #echo "<td><input type='checkbox' name='answer[]' value='" . $id . "'></td>";
-    echo "<label class='switch'><input type='checkbox'><div class='slider round'></div></label>";
+    echo "<td><label class='switch'><input type='checkbox'><div class='slider round'></div></label></td>";
     echo "</tr>";
   }
 ?>
