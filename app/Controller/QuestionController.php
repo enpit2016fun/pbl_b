@@ -1,7 +1,16 @@
 <?php
-$ques_pt_sum = 0;
-
 class QuestionController extends AppController {
+  private $ques_pt_sum = 0;
+  $Question = new Question();
+
+  public function getSum() {
+      return $this->$ques_pt_sum;
+  }
+
+  public function setSum($value) {
+    $this->$ques_pt_sum += $value;
+  }
+
   public function index() {
   }
 
@@ -24,12 +33,11 @@ class QuestionController extends AppController {
       $result[] = $data[0];
     }
 
-    global $ques_pt_sum;
-    $ques_pt_sum = 0;
     foreach ($result as $item) {
-      global $ques_pt_sum;
+      global $Question;
       $question = $item["Question"];
-      $ques_pt_sum += $question["point"];
+      //$ques_pt_sum += $question["point"];
+      $Question->setSum($question["point"]);
     }
      $this->set('data', $result);
   }
@@ -57,8 +65,8 @@ class QuestionController extends AppController {
          $point = $data[0]["Question"]["point"];
          $selected_pt_sum += $point;
        }
-
-       $percentage = $selected_pt_sum * (100 / $ques_pt_sum);
+       global $Question;
+       $percentage = $selected_pt_sum * (100 / $Question->getSum());
        $this->set('measure_result', $percentage);
      }
    }
