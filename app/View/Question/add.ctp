@@ -9,6 +9,16 @@
 
 <?php echo $this->Form->create(false, array('type' => 'post', 'url' => 'add')); ?>
 
+<h5>カテゴリ</h5>
+<?php
+  foreach ($category as $item) {
+    $cate = $item["Category"];
+    $id = $cate["id"];
+    $name = $cate["category"];
+    echo "<p>". $name ."</p><input type='checkbox' name='answer[]' value='" . $id . "'><br>";
+  }
+?>
+
 <h5>新しい質問</h5>
 <?php echo $this->Form->text('Question.context'); ?>
 

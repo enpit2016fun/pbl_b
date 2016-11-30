@@ -36,6 +36,11 @@ class QuestionController extends AppController {
        $this->Question->save($this->request->data);
        $this->redirect('http://175.184.29.233/cakephp/');
      }
+
+     App::import('Model', 'Category');
+     $this->Category = new Category();
+     $category_list= $this->Category->find('all');
+     $this->set('category' $category_list);
    }
 
    public function result() {
