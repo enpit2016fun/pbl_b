@@ -15,7 +15,7 @@
     $cate = $item["Category"];
     $id = $cate["id"];
     $name = $cate["category"];
-    echo "<p>". $name ."</p><input type='checkbox' name='answer[]' value='" . $id . "'><br>";
+    echo "<p>". $name ."<input type='checkbox' name='category[]' value='" . $id . "'></p>";
   }
 ?>
 
