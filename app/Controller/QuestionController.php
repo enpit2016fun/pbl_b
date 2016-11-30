@@ -56,8 +56,9 @@ class QuestionController extends AppController {
          $point = $data[0]["Question"]["point"];
          $selected_pt_sum += $point;
        }
-       print_r($selected_pt_sum);
        global $ques_pt_sum;
+       $ques_pt_sum = $this->request->data['sum'];
+       print_r($ques_pt_sum);
        $percentage = $selected_pt_sum * (100 / $ques_pt_sum);
        $this->set('measure_result', $percentage);
      }
