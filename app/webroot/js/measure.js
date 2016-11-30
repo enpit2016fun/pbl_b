@@ -14,8 +14,9 @@ $(function(){
             success: function(data){
               alert(data);
             },
-            error: function (data) {
-                alert(data);
+            error: function(xhr, textStatus, errorThrown) {
+              var res = $.parseJSON(xhr.responseText);
+              alert(res);
             }
         });
         return false
