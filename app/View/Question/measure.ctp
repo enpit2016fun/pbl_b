@@ -3,6 +3,7 @@
 <head>
 <meta http-equiv=“Content-Type” content=“text/html; charset=UTF-8”/>
 <?php echo $this->Html->css('toggle'); ?>
+<?php echo $this->Html->script('jquery'); ?>
 <?php echo $this->Html->script('measure'); ?>
 <title>質問回答画面</title>
 </head>
