@@ -8,6 +8,9 @@ body {
   height: 100%;
   width: 100%;
 }
+#homeHeading{
+    text-align: center;
+}
 body {
 /*background-color: aqua;*/
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
