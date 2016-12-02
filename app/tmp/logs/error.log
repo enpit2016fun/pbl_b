@@ -3519,3 +3519,22 @@ Request URL: /pbl_b/vendor/font-awesome/css/font-awesome.min.css
 Stack Trace:
 #0 C:\xampp\htdocs\pbl_b\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2016-12-02 11:15:47 Error: [MissingControllerException] Controller class VendorController could not be found.
+Exception Attributes: array (
+  'class' => 'VendorController',
+  'plugin' => NULL,
+)
+Request URL: /pbl_b/vendor/bootstrap/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\pbl_b\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-02 11:15:47 Error: [MissingControllerException] Controller class VendorController could not be found.
+Exception Attributes: array (
+  'class' => 'VendorController',
+  'plugin' => NULL,
+)
+Request URL: /pbl_b/vendor/magnific-popup/magnific-popup.css
+Stack Trace:
+#0 C:\xampp\htdocs\pbl_b\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+in}
