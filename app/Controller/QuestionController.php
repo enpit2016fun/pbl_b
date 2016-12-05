@@ -1,5 +1,7 @@
 <?php
 class QuestionController extends AppController {
+  public $autoLayout = false;
+
   public function index() {
   }
 
