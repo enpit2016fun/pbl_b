@@ -8,7 +8,7 @@ body {
   height: 100%;
   width: 100%;
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
-  background-image: url('../img/papanLL.jpg');
+  background-image: url('../img/papan.jpg');
   background-size: cover;
   text-align: center;
 
@@ -33,7 +33,7 @@ header .header-content {
   position: relative;
   text-align: center;
   padding: 100px 15px 100px;
-  width: 100%;
+  /*width: 100%;*/
 }
 header .header-content .header-content-inner h1 {
   font-weight: 700;
