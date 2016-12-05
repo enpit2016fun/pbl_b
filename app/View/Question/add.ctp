@@ -9,11 +9,24 @@
 
 <?php echo $this->Form->create(false, array('type' => 'post', 'url' => 'add')); ?>
 
+<h5>カテゴリ</h5>
+<?php
+  foreach ($category as $item) {
+    $cate = $item["Category"];
+    $id = $cate["id"];
+    $name = $cate["category"];
+    echo "<p>". $name ."<input type='checkbox' name='category[]' value='" . $id . "'></p>";
+  }
+?>
+
 <h5>新しい質問</h5>
 <?php echo $this->Form->text('Question.context'); ?>
 
 <h5>配点</h5>
 <?php echo $this->Form->text('Question.point'); ?>
+
+<h5>解決策</h5>
+<?php echo $this->Form->text('Question.solution'); ?>
 
 <?php echo $this->Form->submit('質問を追加する'); ?>
 <?php echo $this->Form->end(); ?>
