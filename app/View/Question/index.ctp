@@ -14,7 +14,7 @@
 <body id="page-top">
 -->
 <body>
-    <header>
+    <!--<header>-->
         <div class="header-content">
             <div class="header-content-inner">
                 <h1 id="homeHeading">PAPA DOUMEI</h1>
@@ -29,15 +29,15 @@
                         <?php echo $this->Form->end(); ?>
                         <hr>
                         <!--<input type="submit" class="btn btn-primary btn-xl" value="質問を追加" >-->
-                        <?php #echo $this->Form->create(false, array('type' => 'post', 'url' => 'add')); ?>
-                        <?php #echo $this->Form->submit("質問を追加", array("type" => "image", "src" => "/pbl/img/question_add.png", "id" => "addQuestion", "div" => false)); ?>
-                        <?php #echo $this->Form->end(); ?>
+                        <?php echo $this->Form->create(false, array('type' => 'post', 'url' => 'add')); ?>
+                        <?php echo $this->Form->submit("質問を追加", array("type" => "image", "src" => "/pbl/img/question_add.png", "id" => "addQuestion", "div" => false)); ?>
+                        <?php echo $this->Form->end(); ?>
                     </div>
                 <!--</form>-->
          
             </div>
         </div>
-    </header>
+    <!--</header>->
 
 </body>
 </html>
