@@ -14,7 +14,11 @@
 <body id="page-top">
 -->
 <body>
-    <!--<header>-->
+    
+    <?php echo $this->Form->create(false, array('type' => 'post', 'url' => 'measure')); ?>
+                        <?php echo $this->Form->submit("機嫌を測定", array("type" => "image", "src" => "/pbl/img/measure_btn.png", "id" => "measure", "div" => false)); ?>
+                        <?php echo $this->Form->end(); ?>
+    <header>
         <div class="header-content">
             <div class="header-content-inner">
                 <h1 id="homeHeading">PAPA DOUMEI</h1>
@@ -37,7 +41,7 @@
          
             </div>
         </div>
-    <!--</header>->
+    </header>
 
 </body>
 </html>

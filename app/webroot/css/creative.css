@@ -7,16 +7,10 @@ html,
 body {
   height: 100%;
   width: 100%;
-  position: relative;
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
   background-image: url('../img/background.png');
   background-size: cover;
-  text-align: center;  
-  min-height: auto;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-position: center;
+  text-align: center;
 }
 #measure{
     text-align: center;
@@ -31,7 +25,6 @@ body {
 hr {
   border-color: Transparent;
 }
-/*
 header {
   position: relative;
   width: 100%;
@@ -43,14 +36,14 @@ header {
   background-position: center;
   text-align: center;
   color: white;
-}*/
-.header-content {
+}
+header .header-content {
   position: relative;
   text-align: center;
   padding: 100px 15px 100px;
   /*width: 100%;*/
 }
-.header-content .header-content-inner h1 {
+header .header-content .header-content-inner h1 {
   font-weight: 700;
   color: rgba(0, 0, 0, 1);
   text-transform: uppercase;
@@ -58,11 +51,11 @@ header {
   margin-bottom: 0;
   font-size: 30px;
 }
-.header-content .header-content-inner hr {
+header .header-content .header-content-inner hr {
   margin: 20px auto;
 border-color: Transparent;
 }
-.header-content .header-content-inner p {
+header .header-content .header-content-inner p {
   font-weight: 300;
   color: rgba(0, 0, 0, 0.7);
   font-size: 16px;
