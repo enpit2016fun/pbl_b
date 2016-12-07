@@ -2,9 +2,14 @@
 <html long = "ja">
 <head>
 <meta http-equiv=“Content-Type” content=“text/html; charset=UTF-8”/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui" />
+    
+<?php  echo $this->Html->css("creative.css"); ?>
 <title>質問回答画面</title>
 </head>
 <body>
+<div id="gage"></div>
+<?php echo $this->Html->image("clipboard.png", array("id" => "clipboard")); ?>
 <h1>質問回答画面</h1>
 <?php echo $this->Form->create(false, array('type' => 'post', 'url' => 'result')); ?>
 <table>

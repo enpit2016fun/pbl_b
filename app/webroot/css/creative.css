@@ -1,0 +1,93 @@
+/*!
+ * Start Bootstrap - Creative v3.3.7+1 (http://startbootstrap.com/template-overviews/creative)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  background-size: cover;
+  text-align: center;
+}
+#gage {
+  background-color: #d6432b;
+  position: absolute;
+  top: 65.3%; /* min => 65.3%, max => 27% */
+  left: 25%;
+  width: 50%;
+  height: 0%;
+}
+#blackboard {
+  background-color: black;
+  position: absolute;
+  top: 27%;
+  left: 25%;
+  width: 50%;
+  height: 50%;
+}
+#background{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#clipboard{
+  position: absolute;
+  text-align: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#measure{
+    text-align: center;
+    width: 25%;
+    height: 15%;
+}
+#addQuestion{
+    text-align: center;
+    width: 25%;
+    height: 15%;
+}
+hr {
+  border-color: Transparent;
+}
+header {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+}
+header .header-content {
+  position: relative;
+  text-align: center;
+  padding: 100px 15px 100px;
+  /*width: 100%;*/
+}
+header .header-content .header-content-inner h1 {
+  font-weight: 700;
+  color: rgba(0, 0, 0, 1);
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 30px;
+}
+header .header-content .header-content-inner hr {
+  margin: 20px auto;
+border-color: Transparent;
+}
+header .header-content .header-content-inner p {
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 16px;
+  margin-bottom: 50px;
+}
