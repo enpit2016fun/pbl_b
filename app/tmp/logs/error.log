@@ -352,3 +352,12 @@ Request URL: /pbl_b/js/measure.js
 Stack Trace:
 #0 C:\xampp\htdocs\pbl_b\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2016-12-08 01:45:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /pbl_b/js/measure.js
+Stack Trace:
+#0 C:\xampp\htdocs\pbl_b\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
