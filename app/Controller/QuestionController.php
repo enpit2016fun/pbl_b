@@ -1,7 +1,7 @@
 <?php
 class QuestionController extends AppController {
   public function index() {
-      $this->layout = '';
+      #$this->layout = '';
   }
 
   public function measure() {
