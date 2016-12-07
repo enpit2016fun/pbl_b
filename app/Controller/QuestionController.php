@@ -68,16 +68,19 @@ class QuestionController extends AppController {
      $answer = "";
      $selected_pt_sum = 0;
      if ($this->request->isPost()) {
-       foreach ($this->request->data['answer'] as $answer_id) {
-         $data = $this->Question->find('all', array(
-           'conditions' => array('Question.id' => $answer_id),
-           'fields' => array('Question.point')
-         ));
-         $point = $data[0]["Question"]["point"];
-         $selected_pt_sum += $point;
+       if (!empty($this->data['answer'])) {
+         foreach ($this->request->data['answer'] as $answer_id) {
+           $data = $this->Question->find('all', array(
+             'conditions' => array('Question.id' => $answer_id),
+             'fields' => array('Question.point')
+           ));
+           $point = $data[0]["Question"]["point"];
+           $selected_pt_sum += $point;
+         }
+         $percentage = $selected_pt_sum * (100 / $this->request->data['sum']);
+       } else {
+         $percentage = 0; 
        }
-
-       $percentage = $selected_pt_sum * (100 / $this->request->data['sum']);
        $this->set('measure_result', (int)$percentage);
      }
    }

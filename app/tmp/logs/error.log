@@ -515,3 +515,269 @@ Request URL: /pbl_b/js/measure.js
 Stack Trace:
 #0 /var/www/html/pbl_b/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2016-12-06 05:32:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /miyai/pbl_b/js/measure.js
+Stack Trace:
+#0 /var/www/html/miyai/pbl_b/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-06 05:35:05 Error: [MissingActionException] Action QuestionController::miyai() could not be found.
+Exception Attributes: array (
+  'controller' => 'QuestionController',
+  'action' => 'miyai',
+)
+Request URL: /miyai/pbl_b/question/miyai/pbl_b/img/question_add_btn.png
+Stack Trace:
+#0 /var/www/html/miyai/pbl_b/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/miyai/pbl_b/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(QuestionController), Object(CakeRequest))
+#2 /var/www/html/miyai/pbl_b/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-06 05:40:20 Error: [MissingActionException] Action QuestionController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'QuestionController',
+  'action' => 'img',
+)
+Request URL: /miyai/pbl_b/question/img/question_add_btn.png
+Stack Trace:
+#0 /var/www/html/miyai/pbl_b/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/miyai/pbl_b/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(QuestionController), Object(CakeRequest))
+#2 /var/www/html/miyai/pbl_b/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-06 10:09:25 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /miyai/pbl_b/js/measure.js
+Stack Trace:
+#0 /var/www/html/miyai/pbl_b/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-06 10:10:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /miyai/pbl_b/js/measure.js
+Stack Trace:
+#0 /var/www/html/miyai/pbl_b/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-06 10:52:57 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /miyai/pbl_b/js/measure.js
+Stack Trace:
+#0 /var/www/html/miyai/pbl_b/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-06 17:42:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /miyai/pbl_b/js/measure.js
+Stack Trace:
+#0 /var/www/html/miyai/pbl_b/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-06 17:43:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /miyai/pbl_b/js/measure.js
+Stack Trace:
+#0 /var/www/html/miyai/pbl_b/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-07 11:02:46 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /miyai/pbl_b/js/measure.js
+Stack Trace:
+#0 /var/www/html/miyai/pbl_b/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-07 15:55:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /miyai/pbl_b/js/measure.js
+Stack Trace:
+#0 /var/www/html/miyai/pbl_b/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-07 16:07:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /miyai/pbl_b/js/measure.js
+Stack Trace:
+#0 /var/www/html/miyai/pbl_b/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-07 16:19:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /miyai/pbl_b/js/measure.js
+Stack Trace:
+#0 /var/www/html/miyai/pbl_b/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-07 16:23:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /miyai/pbl_b/js/measure.js
+Stack Trace:
+#0 /var/www/html/miyai/pbl_b/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-07 18:32:39 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /miyai/pbl_b/js/measure.js
+Stack Trace:
+#0 /var/www/html/miyai/pbl_b/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-07 18:34:32 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /miyai/pbl_b/js/measure.js
+Stack Trace:
+#0 /var/www/html/miyai/pbl_b/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-07 18:47:19 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /miyai/pbl_b/js/measure.js
+Stack Trace:
+#0 /var/www/html/miyai/pbl_b/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-07 18:49:23 Error: Fatal Error (4): syntax error, unexpected '?>' in [/var/www/html/miyai/pbl_b/app/View/Question/result.ctp, line 22]
+2016-12-07 18:49:23 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /miyai/pbl_b/question/result
+Stack Trace:
+#0 /var/www/html/miyai/pbl_b/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 22)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 22, Array)
+#2 /var/www/html/miyai/pbl_b/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 22, Array)
+#3 /var/www/html/miyai/pbl_b/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-12-07 18:54:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /miyai/pbl_b/js/measure.js
+Stack Trace:
+#0 /var/www/html/miyai/pbl_b/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-07 19:00:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /miyai/pbl_b/js/measure.js
+Stack Trace:
+#0 /var/www/html/miyai/pbl_b/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-07 19:00:57 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /miyai/pbl_b/js/measure.js
+Stack Trace:
+#0 /var/www/html/miyai/pbl_b/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-07 19:07:07 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /miyai/pbl_b/js/measure.js
+Stack Trace:
+#0 /var/www/html/miyai/pbl_b/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-07 19:13:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /miyai/pbl_b/js/measure.js
+Stack Trace:
+#0 /var/www/html/miyai/pbl_b/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-07 19:52:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /miyai/pbl_b/js/measure.js
+Stack Trace:
+#0 /var/www/html/miyai/pbl_b/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-07 20:03:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /miyai/pbl_b/js/measure.js
+Stack Trace:
+#0 /var/www/html/miyai/pbl_b/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-07 20:03:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /miyai/pbl_b/js/measure.js
+Stack Trace:
+#0 /var/www/html/miyai/pbl_b/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-07 20:20:19 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /miyai/pbl_b/js/measure.js
+Stack Trace:
+#0 /var/www/html/miyai/pbl_b/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-07 20:30:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /miyai/pbl_b/js/measure.js
+Stack Trace:
+#0 /var/www/html/miyai/pbl_b/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-07 21:24:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /miyai/pbl_b/js/measure.js
+Stack Trace:
+#0 /var/www/html/miyai/pbl_b/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-07 21:30:55 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /miyai/pbl_b/js/measure.js
+Stack Trace:
+#0 /var/www/html/miyai/pbl_b/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

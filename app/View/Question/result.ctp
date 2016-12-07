@@ -2,6 +2,7 @@
 <html long = "ja">
 <head>
 <meta http-equiv=“Content-Type” content=“text/html; charset=UTF-8”/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui" />
 <?php echo $this->Html->css("result.css"); ?>
 <?php echo $this->Html->script("jquery.js"); ?>
 <title>機嫌表示画面</title>
@@ -20,7 +21,7 @@
   <p>お母さんの機嫌は非常に危険な状態です。すぐに精神的衛生上、迅速に対処する必要があるでしょう。お母さんは何で悩んでいると思いますか？わからなければ問いかけましょう。女ってのはそんなもんです。選んだからには寄り添い合いましょう。</p>
 </div>
 <?php echo $this->Form->create(false, array('type' => 'post', 'url' => 'add')); ?>
-<?php echo $this->Form->submit("質問を追加", array("type" => "image", "src" => "/pbl_b/img/question_add_btn.png", "id" => "addQuestion", "div" => false)); ?>
+<?php echo $this->Form->submit("質問を追加", array("type" => "image", "src" => "/miyai/pbl_b/img/question_add_btn.png", "id" => "addQuestion", "div" => false)); ?>
 <?php echo $this->Form->end(); ?>
 
 <?php echo $this->Html->script("result.js"); ?>

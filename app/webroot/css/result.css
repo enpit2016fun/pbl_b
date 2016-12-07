@@ -1,12 +1,19 @@
 body {
   height: 100%;
 }
+
+@font-face{
+  font-family:'Haettenschweiler';
+  src:url('Haettenschweiler.ttf') format('truetype');
+}
+
 #title {
   position: relative;
   text-align: center;
-  margin-top: 17%;
+  margin-top: 13%;
   font-family: Haettenschweiler;
-  font-size: 30px;
+  font-weight: bolder;
+  font-size: 1.5em;
 }
 
 #desc {
@@ -14,17 +21,17 @@ body {
   text-align: center;
   margin-top: -8%;
   font-family: "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro";
-  font-size: 16px; 
+  font-size: 1em; 
 }
 
 #measure_result {
   position: relative;
   text-align: center;
   color: #ed783f;
-  margin-top: -10%;
+  margin-top: -7%;
   font-family: "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro";
   font-weight: bolder;
-  font-size: 60px;
+  font-size: 3em;
 }
 
 #background { 
@@ -64,19 +71,19 @@ body {
 
 #solution_text {
   position: absolute;
-  top: 67%;
+  top: 66%;
   left: 15%;
   width: 70%;
   height: 20%;
   overflow: scroll;
-  font-size: 10pt;
+  font-size: 0.8em;
   font-family: "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro";
 }
 
 #resultForm {
   position: relative;
   text-align: center;
-  margin-top: 109%;
+  margin-top: 91%;
 }
 
 #addQuestion {
