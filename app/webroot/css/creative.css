@@ -15,12 +15,12 @@ body {
 #measure{
     text-align: center;
     width: 20%;
-    height: 1%;
+    height: 10%;
 }
 #addQuestion{
     text-align: center;
-    width: 25%;
-    height: 15%;
+    width: 20%;
+    height: 10%;
 }
 hr {
   border-color: Transparent;
