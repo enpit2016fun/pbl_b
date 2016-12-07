@@ -3917,3 +3917,121 @@ Request URL: /pbl_b/css/bootstrap.css.map
 Stack Trace:
 #0 C:\xampp\htdocs\pbl_b\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2016-12-07 15:18:40 Error: [MissingControllerException] Controller class MeasureController could not be found.
+Exception Attributes: array (
+  'class' => 'MeasureController',
+  'plugin' => NULL,
+)
+Request URL: /pbl_b/measure
+Stack Trace:
+#0 C:\xampp\htdocs\pbl_b\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-07 15:19:28 Error: [MissingActionException] Action AppController::View() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'View',
+)
+Request URL: /pbl_b/app/View/Question/measure.ctp
+Stack Trace:
+#0 C:\xampp\htdocs\pbl_b\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\pbl_b\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\pbl_b\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-07 15:19:32 Error: [MissingActionException] Action AppController::View() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'View',
+)
+Request URL: /pbl_b/app/View/Question/measure
+Stack Trace:
+#0 C:\xampp\htdocs\pbl_b\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\pbl_b\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\pbl_b\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-07 15:20:12 Error: [MissingActionException] Action AppController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'index',
+)
+Request URL: /pbl_b/app/
+Stack Trace:
+#0 C:\xampp\htdocs\pbl_b\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\pbl_b\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\pbl_b\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-07 15:23:22 Error: [MissingControllerException] Controller class PblBController could not be found.
+Exception Attributes: array (
+  'class' => 'PblBController',
+  'plugin' => NULL,
+)
+Request URL: /pbl_b/pbl_b/app/View/Question/measure.ctp
+Stack Trace:
+#0 C:\xampp\htdocs\pbl_b\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-07 15:23:53 Error: [MissingControllerException] Controller class PblBController could not be found.
+Exception Attributes: array (
+  'class' => 'PblBController',
+  'plugin' => NULL,
+)
+Request URL: /pbl_b/pbl_b/
+Stack Trace:
+#0 C:\xampp\htdocs\pbl_b\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-07 15:24:13 Error: [MissingControllerException] Controller class PblBController could not be found.
+Exception Attributes: array (
+  'class' => 'PblBController',
+  'plugin' => NULL,
+)
+Request URL: /pbl_b/pbl_b/
+Stack Trace:
+#0 C:\xampp\htdocs\pbl_b\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-07 15:24:15 Error: [MissingControllerException] Controller class PblBController could not be found.
+Exception Attributes: array (
+  'class' => 'PblBController',
+  'plugin' => NULL,
+)
+Request URL: /pbl_b/pbl_b/
+Stack Trace:
+#0 C:\xampp\htdocs\pbl_b\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-07 15:24:23 Error: [MissingActionException] Action AppController::View() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'View',
+)
+Request URL: /pbl_b/app/View/Question/measure.ctp
+Stack Trace:
+#0 C:\xampp\htdocs\pbl_b\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\pbl_b\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\pbl_b\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-07 15:25:06 Error: [MissingActionException] Action AppController::View() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'View',
+)
+Request URL: /pbl_b/app/View/Question/measure
+Stack Trace:
+#0 C:\xampp\htdocs\pbl_b\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\pbl_b\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\pbl_b\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-07 15:26:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /pbl_b/css/bootstrap.css.map
+Stack Trace:
+#0 C:\xampp\htdocs\pbl_b\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-07 16:21:11 Error: [MissingControllerException] Controller class KanazawaController could not be found.
+Exception Attributes: array (
+  'class' => 'KanazawaController',
+  'plugin' => NULL,
+)
+Request URL: /pbl_b/kanazawa/pbl_b/question/measure
+Stack Trace:
+#0 C:\xampp\htdocs\pbl_b\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

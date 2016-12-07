@@ -19,13 +19,15 @@
             <div class="header-content-inner">
                 <h1 id="homeHeading">PAPA DOUMEI</h1>
                 <p></p>
-                <form action="/cakephp/question/measure.ctp" id="indexForm" method="post" accept-charset="utf-8">
+                <form action="/kanazawa/pbl_b/question/measure" id="indexForm" method="post" accept-charset="utf-8">
                     <div style="display:none;"><input type="hidden" name="_method" value="POST"/>
                     </div>
                     <div class="submit">
-                        <input type="submit" class="btn btn-warning btn-xl" value="機嫌を測定" >
+                        <!--<input type="submit" class="btn btn-warning btn-xl" value="機嫌を測定" >-->
+                        <?php echo $this->Form->submit("機嫌を測定", array("type" => "image", "src" => "/kanazawa/pbl_b/img/measure_btn.png", "id" => "measure", "div" => false)); ?>
                         <hr>
-                        <input type="submit" class="btn btn-primary btn-xl" value="質問を追加" >
+                        <!--<input type="submit" class="btn btn-primary btn-xl" value="質問を追加" >-->
+                        <?php echo $this->Form->submit("機嫌を測定", array("type" => "image", "src" => "/kanazawa/pbl_b/img/question_add.png", "id" => "measure", "div" => false)); ?>
                     </div>
                 </form>
          
