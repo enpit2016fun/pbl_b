@@ -19,7 +19,7 @@
             <div class="header-content-inner">
                 <h1 id="homeHeading">PAPA DOUMEI</h1>
                 <p></p>
-                <form action="/cakephp/question/measure" id="indexForm" method="post" accept-charset="utf-8">
+                <form action="/cakephp/question/measure.ctp" id="indexForm" method="post" accept-charset="utf-8">
                     <div style="display:none;"><input type="hidden" name="_method" value="POST"/>
                     </div>
                     <div class="submit">
