@@ -13,10 +13,19 @@ body {
   text-align: center;
 
 }
+#measure{
+    text-align: center;
+    width: 25%;
+    height: 15%;
+}
+#addQuestion{
+    text-align: center;
+    width: 25%;
+    height: 15%;
+}
 hr {
   border-color: Transparent;
 }
-
 header {
   position: relative;
   width: 100%;
