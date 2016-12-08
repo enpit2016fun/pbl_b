@@ -16,11 +16,11 @@
                 <p></p>
                 <div class="submit">
                         <?php echo $this->Form->create(false, array('type' => 'post', 'url' => 'measure')); ?>
-                        <?php echo $this->Form->submit("機嫌を測定", array("type" => "image", "src" => "/pbl_b/img/measure_btn.png", "id" => "measure", "div" => false)); ?>
+                        <?php echo $this->Form->submit("機嫌を測定", array("type" => "image", "src" => "/kanazawa/pbl_b/img/measure_btn.png", "id" => "measure", "div" => false)); ?>
                         <?php echo $this->Form->end(); ?>
                         <hr>
                         <?php echo $this->Form->create(false, array('type' => 'post', 'url' => 'add')); ?>
-                        <?php echo $this->Form->submit("質問を追加", array("type" => "image", "src" => "/pbl_b/img/question_add.png", "id" => "addQuestion", "div" => false)); ?>
+                        <?php echo $this->Form->submit("質問を追加", array("type" => "image", "src" => "/kanazawa/pbl_b/img/question_add.png", "id" => "addQuestion", "div" => false)); ?>
                         <?php echo $this->Form->end(); ?>
                 </div>
                 <!--</form>-->
