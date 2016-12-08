@@ -6,15 +6,16 @@
 html,
 body {
   height: 100%;
-  width: 100%;
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
-  background-size: cover;
-  text-align: center;
 }
+@font-face{
+  font-family:'Haettenschweiler';
+  src:url('Haettenschweiler.ttf') format('truetype');
+}
+
 #title {
   position: relative;
   text-align: center;
-  margin-top: 13%;
+  margin-top: 20%;
   font-family: Haettenschweiler;
   font-weight: bolder;
   font-size: 1.5em;
@@ -60,42 +61,13 @@ body {
     width: 25%;
     height: 15%;
 }
-hr {
-  border-color: Transparent;
-}
-header {
-  position: relative;
-  width: 100%;
-  min-height: auto;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  background-position: center;
-  text-align: center;
-  color: white;
-}
-header .header-content {
-  position: relative;
-  text-align: center;
-  padding: 100px 15px 100px;
-  /*width: 100%;*/
-}
-header .header-content .header-content-inner h1 {
-  font-weight: 700;
-  color: rgba(0, 0, 0, 1);
-  text-transform: uppercase;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-size: 30px;
-}
-header .header-content .header-content-inner hr {
-  margin: 20px auto;
-border-color: Transparent;
-}
-header .header-content .header-content-inner p {
-  font-weight: 300;
-  color: rgba(0, 0, 0, 0.7);
-  font-size: 16px;
-  margin-bottom: 50px;
+#solution_text {
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  width: 70%;
+  height: 70%;
+  overflow: scroll;
+  font-size: 0.8em;
+  font-family: "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro";
 }

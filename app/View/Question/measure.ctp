@@ -4,14 +4,17 @@
 <meta http-equiv=“Content-Type” content=“text/html; charset=UTF-8”/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui" />
     
-<?php  echo $this->Html->css("creative.css"); ?>
+<?php  echo $this->Html->css("measure.css"); ?>
 <title>質問回答画面</title>
 </head>
 <body>
+<?php echo $this->Html->image("background.png", array("id" => "background")); ?>
+<div id="blackboard"></div>
 <div id="gage"></div>
 <?php echo $this->Html->image("clipboard.png", array("id" => "clipboard")); ?>
-<h1>質問回答画面</h1>
+<p id="title">質問回答画面</p>
 <?php echo $this->Form->create(false, array('type' => 'post', 'url' => 'result')); ?>
+<div id="solution_text">
 <table>
 <?php
   $point_sum = 0;
@@ -30,9 +33,10 @@
   echo "<input type='hidden' name='sum' value='". $point_sum. "'>";
 ?>
 </table>
-<?php echo $this->Form->submit('機嫌を測定する'); ?>
+</div>
+<?php echo $this->Form->create(false, array('type' => 'post', 'url' => 'measure')); ?>
+<?php echo $this->Form->submit("機嫌を測定", array("type" => "image", "src" => "/kanazawa/pbl_b/img/measure_btn.png", "id" => "measure", "div" => false)); ?>
 <?php echo $this->Form->end(); ?>
-
 <?php echo $this->Html->script('measure'); ?>
 </body>
 </html>
