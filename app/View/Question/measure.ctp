@@ -34,9 +34,11 @@
 ?>
 </table>
 </div>
+<div id="button">
 <?php echo $this->Form->create(false, array('type' => 'post', 'url' => 'measure')); ?>
 <?php echo $this->Form->submit("機嫌を測定", array("type" => "image", "src" => "/kanazawa/pbl_b/img/measure_btn.png", "id" => "measure", "div" => false)); ?>
 <?php echo $this->Form->end(); ?>
 <?php echo $this->Html->script('measure'); ?>
+    </div>
 </body>
 </html>

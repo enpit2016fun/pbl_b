@@ -66,8 +66,16 @@ body {
   top: 20%;
   left: 15%;
   width: 70%;
-  height: 70%;
+  height: 60%;
   overflow: scroll;
   font-size: 0.8em;
   font-family: "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro";
+}
+#button{
+  position: absolute;
+  text-align: center;
+  padding: 100px 40px 100px;
+  top: 60%;
+  width: 70%;
+  height: 70%;
 }
