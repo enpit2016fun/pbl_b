@@ -1,0 +1,92 @@
+body {
+  height: 100%;
+}
+
+@font-face{
+  font-family:'Haettenschweiler';
+  src:url('Haettenschweiler.ttf') format('truetype');
+}
+
+#title {
+  position: relative;
+  text-align: center;
+  margin-top: 13%;
+  font-family: Haettenschweiler;
+  font-weight: bolder;
+  font-size: 1.5em;
+}
+
+#desc {
+  position: relative;
+  text-align: center;
+  margin-top: -8%;
+  font-family: "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro";
+  font-size: 1em; 
+}
+
+#measure_result {
+  position: relative;
+  text-align: center;
+  color: #ed783f;
+  margin-top: -7%;
+  font-family: "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro";
+  font-weight: bolder;
+  font-size: 3em;
+}
+
+#background { 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#clipboard {
+  position: absolute;
+  text-align: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#blackboard {
+  background-color: black;
+  position: absolute;
+  top: 27%;
+  left: 25%;
+  width: 50%;
+  height: 50%;
+}
+
+#gage {
+  background-color: #d6432b;
+  position: absolute;
+  top: 65.3%; /* min => 65.3%, max => 27% */
+  left: 25%;
+  width: 50%;
+  height: 0%;
+}
+
+#solution_text {
+  position: absolute;
+  top: 66%;
+  left: 15%;
+  width: 70%;
+  height: 20%;
+  overflow: scroll;
+  font-size: 0.8em;
+  font-family: "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro";
+}
+
+#resultForm {
+  position: relative;
+  text-align: center;
+  margin-top: 91%;
+}
+
+#addQuestion {
+  width: 25%;
+  height: 15%;
+}
