@@ -1,0 +1,44 @@
+body {
+  height: 100%;
+}
+
+@font-face{
+  font-family:'Haettenschweiler';
+  src:url('Haettenschweiler.ttf') format('truetype');
+}
+
+#title {
+  position: relative;
+  text-align: center;
+  margin-top: 13%;
+  font-family: Haettenschweiler;
+  font-weight: bolder;
+  font-size: 6em;
+}
+
+#background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#indexForm {
+  text-align: center;
+}
+
+#indexForm #measure{
+  position: relative;
+  width: 25%;
+  height: 15%;
+}
+
+#indexForm #addQuestion{
+  position: relative;
+  margin-top: 2em;
+  width: 25%;
+  height: 15%;
+}
+
+

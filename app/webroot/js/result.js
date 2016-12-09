@@ -1,5 +1,5 @@
 (function () {
-  var max_height = $('#blackboard').offset().top,
+  max_height = $('#blackboard').offset().top,
       min_height = $('#gage').offset().top,
       one_percentage = (min_height - max_height) / 100;
 

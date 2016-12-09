@@ -21,13 +21,10 @@ class QuestionController extends AppController {
         'limit' => 3            // 3件取得
       ));
 
-      $result[] = $data[0];
+      $result[] = $data;
     }
-
-    foreach ($result as $item) {
-      $question = $item["Question"];
-    }
-     $this->set('data', $result);
+   
+    $this->set('data', $result);
   }
 
    public function add() {

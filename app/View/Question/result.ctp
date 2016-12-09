@@ -12,7 +12,7 @@
 <?php echo $this->Html->image("background.png", array("id" => "background")); ?>
 <div id="blackboard"></div>
 <div id="gage"></div>
-<?php echo $this->Html->image("clipboard.png", array("id" => "clipboard")); ?>
+<?php echo $this->Html->image("clipboard_result.png", array("id" => "clipboard")); ?>
 
 <p id="title">PAPA DOUMEI</p>
 <p id="desc">お母さんの機嫌度</p>
