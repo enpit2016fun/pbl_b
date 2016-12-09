@@ -11,12 +11,12 @@
 
 <p id="title">PAPA DOUMEI</p>
 <?php echo $this->Form->create(false, array('type' => 'post', 'url' => 'measure')); ?>
-<?php echo $this->Form->submit("機嫌を測定", array("type" => "image", "src" => "/miyai/pbl_b/img/measure_btn.png", "id" => "measure", "div" => false)); ?>
+<?php echo $this->Form->submit("機嫌を測定", array("type" => "image", "src" => "/papa-doumei/img/measure_btn.png", "id" => "measure", "div" => false)); ?>
 <?php echo $this->Form->end(); ?>
 
 
 <?php echo $this->Form->create(false, array('type' => 'post', 'url' => 'add')); ?>
-<?php echo $this->Form->submit("質問を追加", array("type" => "image", "src" => "/miyai/pbl_b/img/question_add.png", "id" => "addQuestion", "div" => false)); ?>
+<?php echo $this->Form->submit("質問を追加", array("type" => "image", "src" => "/papa-doumei/img/question_add.png", "id" => "addQuestion", "div" => false)); ?>
 <?php echo $this->Form->end(); ?>
 </body>
 </html>
